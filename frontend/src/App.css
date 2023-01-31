@@ -1,0 +1,111 @@
+@import "assets/fonts/redhatdisplay/stylesheet.css";
+body, h3, p, th, td {
+    font: 15px 'Red Hat Display';
+    font-weight: 500;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.home-row{
+    margin: 50px 0 0 !important;
+}
+h3{
+    font: 24px 'Red Hat Display';
+    font-weight: 700;
+}
+.form-title{ margin-bottom: 25px}
+.custom-select {
+    vertical-align: middle;
+    padding: 1px 0;
+}
+.custom-select-text {
+    font: 14px 'Red Hat Display';
+    font-weight: 400;
+    line-height: 2.3em;
+}
+.custom-select img{
+    height: 28px;
+    margin: 0 15px 0 0;
+    padding-top: 2px;
+}
+.exchangeFormRow{}
+.exchangeFormRow p, .pTitle {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font: 14px 'Red Hat Display';
+    font-weight: 400;
+    color: #9C9C9C;
+}
+.equalCol::after {
+    content: "=";
+}
+.equalCol {
+    line-height: 6em;
+    text-align: center;
+    vertical-align: center;
+}
+thead div.ascending::before {
+    content: url('./assets/images/sort-asc.png');
+    padding-right: 10px;
+}
+thead div.descending::before {
+    content: url('./assets/images/sort-desc.png');
+    padding-right: 10px;
+}
+[class^=exchange-]{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+div.exchange-live {
+    color: #5DBE7E;
+}
+div.exchange-exchanged {
+    color: #6368DF;
+}
+.alert-custom{
+    color: #ffffff;
+    background-color: #49CD5E;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.MuiAlert-message{margin: 0 auto;}
+.search-toolbar{ margin-bottom: 25px }
+[class*='MuiInputBase-input-MuiOutlinedInput-input'] {
+    padding: 9.5px 14px !important;
+}
+.filter-btn{
+    font: 18px 'Red Hat Display' !important;
+    text-transform: capitalize !important;
+    padding: 8px 15px !important;
+}
+[class*='-ValueContainer']{padding: 3px 8px !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
